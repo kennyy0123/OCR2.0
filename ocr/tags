@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Binarisation	filtre.c	/^void Binarisation(SDL_Surface* surface)$/;"	f
+Binarize	interface.c	/^void Binarize(GtkWidget *pWidget, gpointer pData)$/;"	f
+CharaDetect	interface.c	/^void CharaDetect(GtkWidget *pWidget, gpointer pData)$/;"	f
+CloseWindow	interface.c	/^void CloseWindow(GtkWidget *pWidget,gpointer pData)$/;"	f
+Gray_Scale	filtre.c	/^void Gray_Scale(SDL_Surface* surface)$/;"	f
+Load	interface.c	/^void Load(GtkWidget *pWidget, gpointer pData)$/;"	f
+M_PI	rotation.c	4;"	d	file:
+Otsu	filtre.c	/^void Otsu(SDL_Surface* surface, SDL_Surface* empty)     $/;"	f
+Removechildwidget	interface.c	/^void Removechildwidget(GtkWidget *Boxparent)$/;"	f
+Resize	interface.c	/^GtkWidget *Resize(GtkWidget *Image, GtkWidget *window_parent, GdkPixbuf *pixbuf)$/;"	f
+Rotation	interface.c	/^void Rotation(GtkWidget *pWidget, gpointer pData)$/;"	f
+SDL_CentralRotation	rotation.c	/^SDL_Surface* SDL_CentralRotation(SDL_Surface* origin, float angle)$/;"	f
+box_parent	interface.c	/^  GtkWidget *box_parent;$/;"	m	struct:open_picture	file:
+box_parent2	interface.c	/^  GtkWidget *box_parent2;$/;"	m	struct:open_picture	file:
+checkColorLine	detection.c	/^int checkColorLine(SDL_Surface *surface,int y,Uint32 pixel)$/;"	f
+checkColumnLine	detection.c	/^int checkColumnLine(SDL_Surface *surface,int y,int hBegin,int hEnd)$/;"	f
+checkWhiteLine	detection.c	/^int checkWhiteLine(SDL_Surface *surface,int y,int wBegin,int wEnd)$/;"	f
+drawHorizontalLine	detection.c	/^void drawHorizontalLine(SDL_Surface *surface,int y,int wStart,int wEnd,Uint32 pixel)$/;"	f
+drawVerticalLine	detection.c	/^void drawVerticalLine(SDL_Surface *surface,int x,int hStart,int hEnd,Uint32 pixel)$/;"	f
+findBlock	detection.c	/^void findBlock(SDL_Surface *surface,int y,int w,int h)$/;"	f
+findTextLine	detection.c	/^void findTextLine(SDL_Surface *surface)$/;"	f
+getpixel	filtre.c	/^Uint32 getpixel(SDL_Surface *surface, int x, int y)$/;"	f
+init	interface.c	/^int init(int *argc, char **argv)$/;"	f
+initDetect	detection.c	/^int initDetect()$/;"	f
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+mainbin	filtre.c	/^void mainbin(gchar *path)$/;"	f
+makeCharBox	detection.c	/^void makeCharBox(SDL_Surface *surface,int hBegin,int hEnd)$/;"	f
+open_picture	interface.c	/^struct open_picture$/;"	s	file:
+open_picture	interface.c	/^typedef struct open_picture open_picture;$/;"	t	typeref:struct:open_picture	file:
+pImage	interface.c	/^  GtkWidget *pImage;$/;"	m	struct:open_picture	file:
+path	interface.c	/^  gchar *path;$/;"	m	struct:open_picture	file:
+picture	interface.c	/^  GtkWidget *picture;$/;"	m	struct:open_picture	file:
+putpixel	filtre.c	/^void putpixel(SDL_Surface *surface, int x, int y, Uint32 pixel)$/;"	f
+rotation	rotation.c	/^void rotation(float r)$/;"	f
+window_parent	interface.c	/^  GtkWidget *window_parent;    $/;"	m	struct:open_picture	file:

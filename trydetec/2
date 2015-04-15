@@ -1,0 +1,26 @@
+#include "detection.h"
+
+int main()
+    {
+        initDetect();
+        /*SDL_Surface *ecran = NULL;
+        SDL_Surface *imageDeFond = NULL;
+        SDL_Rect positionFond;
+
+        positionFond.x = 0;
+        positionFond.y = 0;
+
+        SDL_Init(SDL_INIT_VIDEO);
+        imageDeFond = (SDL_LoadBMP("sortie.bmp"));
+        ecran = SDL_SetVideoMode(imageDeFond->w, imageDeFond->h, 32, SDL_HWSURFACE); 
+        SDL_WM_SetCaption("Try Detect", NULL);
+        SDL_BlitSurface(imageDeFond, NULL, ecran, &positionFond);
+
+        SDL_Flip(ecran);
+        pause();
+
+        SDL_FreeSurface(imageDeFond);
+        SDL_Quit();*/
+
+        return EXIT_SUCCESS;
+    }
